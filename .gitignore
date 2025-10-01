@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+
+# Coverage
+.coverage
+htmlcov/
+
+# Test reports
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+rag_data/
+
+# IDE settings (personal configurations)
+.vscode/settings.local.json
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Jupyter notebook outputs (keep notebooks but ignore execution outputs)
+# Note: This is a basic approach. For better control, consider using nbstripout
+# getting-started.ipynb filter=nbstripout
